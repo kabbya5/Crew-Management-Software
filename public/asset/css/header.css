@@ -1,0 +1,43 @@
+.crewMode header {
+    border-top: 5px solid var(--teal);
+}
+
+header {
+    padding: 17px 30px;
+    background: white;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.warn {
+    color: #8b580e;
+    background: #fff1d9;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 20px;
+    background: #e9f2f5;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+button {
+    border: 1px solid var(--line);
+    background: white;
+    color: var(--ink);
+    padding: 9px 13px;
+    border-radius: 7px;
+}
